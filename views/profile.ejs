@@ -1,4 +1,4 @@
-<%- include('/partials/header.ejs') %>
+<%- include('partials/header') %>
 
 <div>
     <div>
@@ -6,7 +6,7 @@
             <div>
                 <p><strong>User Name</strong>: <%= user.userName %></p>
                 <p><strong>Email</strong>: <%= user.email %></p>
-                <a href='logout'>Logout</1>
+                <a href='logout'>Logout</a>
             </div>
             <div>
                 <h2>Add a post</h2>
@@ -43,4 +43,4 @@
         </div>
     </div>
 </div>
-<%- include('/partials/footer.ejs') %>
+<%- include('partials/footer') %>
