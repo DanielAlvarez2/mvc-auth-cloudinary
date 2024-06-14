@@ -1,3 +1,6 @@
+*{
+    margin:0;
+}
 .container{
     background:red;
 }
@@ -9,4 +12,5 @@
 }
 footer{
     margin-top: auto;
+    text-align: center;
 }
