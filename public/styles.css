@@ -14,6 +14,7 @@
 }
 .button{
     background:gray;
+    padding: 0.5em 1em;
 }
 footer{
     margin-top: auto;
