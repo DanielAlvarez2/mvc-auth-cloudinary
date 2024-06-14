@@ -15,6 +15,7 @@
 .button{
     background:gray;
     padding: 0.5em 1em;
+    border-radius: 10px;
 }
 footer{
     margin-top: auto;
