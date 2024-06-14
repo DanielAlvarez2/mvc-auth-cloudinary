@@ -1,0 +1,12 @@
+.container{
+    background:red;
+}
+#wrapper{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+}
+footer{
+    margin-top: auto;
+}
