@@ -5,7 +5,7 @@ const postsController = require('../controllers/posts')
 const {ensureAuth,ensureGuest} = require('../middleware/auth')
 
 
-router.get('/:id',ensureAuth,postsController.getPost)
+router.get('/:id',postsController.getPost)
 
 router.post('/createPost',upload.single('file'),postsController.createPost)
 
