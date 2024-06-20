@@ -1,11 +1,13 @@
 <%- include('partials/head') %>
 
-
+main{
+    display:grid;
+}
 
 <%- include('partials/header') %>
 
 <main>
-    <div>
+    <div id='login'>
         <section>
             <% if(locals.messages.errors) {
                 messages.errors.forEach(el=>{ %>
