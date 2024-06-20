@@ -11,7 +11,7 @@
             <img src='<%= post.image %>'>
             <div>
                 <form action='/post/likePost/<%= post.id %>?_method=PUT' method='POST'>
-                    <button type='submit'>Edit</button>
+                    <button type='submit'>Like</button>
                 </form>
 
                 <h3>Likes: <%= post.likes %></h3>
